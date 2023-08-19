@@ -4,10 +4,10 @@
 [Materialize Github](https://github.com/Dogfalo/materialize)  
 
 ### Realizar a pesquisa:  
-- [ ]  Descrição do projeto  
-- [ ]  Ano criação  
-- [ ]  Tipo licença  
-- [ ]  Quantidade de estrelas no github  
+- [X]  Descrição do projeto  
+- [X]  Ano criação  
+- [X]  Tipo licença  
+- [X]  Quantidade de estrelas no github  
 
 - [ ] Fazer a implementação
 - [ ] Aplicar o estilo nas páginas do currículo e formulário
