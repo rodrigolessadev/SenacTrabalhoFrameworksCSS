@@ -2,7 +2,6 @@
 
 [Materialize Documentação](https://materializecss.com/)  
 [Materialize Github](https://github.com/Dogfalo/materialize)  
-
 ### Realizar a pesquisa:  
 - [X]  Descrição do projeto  
 - [X]  Ano criação  
