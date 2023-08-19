@@ -1,14 +1,9 @@
 ## Trabalho de bibliotecas css
 
-- [ ] Descrição
-- [ ] Ano Criação
-- [ ] Estrelas no Github
 
 [Materialize Documentação](https://materializecss.com/)
 
-
 [Materialize Github](https://github.com/Dogfalo/materialize)  
-
 
 ### Realizar a pesquisa:  
 - [ ]  Descrição do projeto  
