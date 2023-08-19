@@ -1,7 +1,7 @@
 ## Trabalho de bibliotecas css
 
-[Materialize Documentação](https://materializecss.com/)  
-[Materialize Github](https://github.com/Dogfalo/materialize)  
+### [Materialize Documentação](https://materializecss.com/)  
+### [Materialize Github](https://github.com/Dogfalo/materialize)  
 
 ### Realizar a pesquisa:  
 - [ ]  Descrição do projeto  
