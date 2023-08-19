@@ -1,11 +1,16 @@
-# Escolher um dos framworks e aplicar no currículo
+## Escolher um dos framworks e aplicar no currículo
 
-[]Descrição
-[]Ano Criação
-[]Estrelas no Github
+[] Descrição
+[] Ano Criação
+[] Estrelas no Github
 
-Bulma
-Bootstrap
-https://github.com/tailwindlabs/tailwindcss">Tailwinc 
-Materialize
-Foudation
+[Bulma]()
+[Bulma Github]()
+[Bootstrap]()
+[Bootstrap Github]()
+[Tailwinc]()Tailwinc 
+[Tailwinc Github](https://github.com/tailwindlabs/tailwindcss)Tailwinc 
+[Materialize]()
+[Materialize Github]()
+[Foudation]()
+[Foudation Github]()
