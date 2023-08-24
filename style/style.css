@@ -1,63 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Lato&family=Montserrat:ital,wght@0,100;1,600&family=Raleway:wght@500&display=swap');
+@media screen and (max-width: 768px) {
 
-:root {
-    --primary-dark: linear-gradient(0deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.08) 100%), #121212;
-    --secondary-dark: #FFF;
-    --fonte-titulo: font-family: 'Raleway', sans-serif;
-    --fonte-paragrafo: font-family: 'Lato', sans-serif;
-    --buttons-color: rgba(187, 134, 252, 0.08);
-    --buttons-color-hover: rgba(187, 134, 252, 0.20);
+    /* Estilos para mobile */
+    .icones-link {
+        color: black !important;
+    }
 
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 }
 
-body {
-    background: var(--primary-dark);
-}
 
-header {
-    display: flex;
-}
 
-header img {
-    display: flex;
-    width: 8.0783rem;
-    height: auto;
-    margin: 1.25rem 0 0 0;
-}
 
-header h1 {
-    /* align-items: center; */
-    /* top: 1.8125rem; */
-    display: flex;
-    color: var(--secondary-dark);
-    font-family: var(--fonte-titulo);
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
 
-article p {
-    width: 17.25rem;
-    height: 13rem;
-    margin: 0 auto 3.25rem auto;
-    display: flex;
-    /* justify-content: center; */
-    text-align: justify;
-    font-family: var(--fonte-paragrafo);
-    color: var(--secondary-dark);
-}
 
-.botons-index {
-    display: flex;
-    justify-content: center !important;
-    align-items: center;
-    margin: auto !important;
-    float: none !important;
-}
+@media screen and (min-width: 768px) {
+    /* Estilos para desktop */
 
-.btn-index {
-    width: 17.25rem;
-    height: 3.375rem;
-    margin: .8125rem auto .8125rem auto;
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card .card-action {
+        padding: 16px 24px;
+        display: grid !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img{
+        width: 24px;
+        height: 24px;
+    }
+
+    path {
+        fill: blue;
+    }
+
+
 }

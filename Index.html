@@ -1,44 +1,160 @@
 <!DOCTYPE html>
 <html lang="PT-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style/style.css">
   <link rel="stylesheet" href="style/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/ghpages-materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Senac - Materialize</title>
 </head>
+
 <body>
+
   <!-- Título e logo -->
   <header>
-    <!-- Utilizando os paràmetros de grid do materialize 
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="pages/form.html"><i class="material-icons left">list_alt</i>FORMULÁRIO</a></li>
+          <li><a href="pages/curriculo.html"><i class="material-icons left">assignment_ind</i>CURRÍCULO</a></li>
+          <li><a href="https://materializecss.com/" target="_blank"><i class="material-icons left">
+                <div class="logo-svg">
+
+                  <svg width="30" height="15" viewBox="0 0 30 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M7.2535 0.448687C7.3599 0.267794 7.49824 0.0939938 7.69686 0.00886733C7.77844 -0.0053204 7.86002 0.00177347 7.9416 0.00177347H11.9567C11.8397 0.101088 11.7262 0.203949 11.6481 0.338732C11.4424 0.675691 11.3041 1.05167 11.1764 1.42764C10.8146 2.56266 10.5628 3.7296 10.318 4.89654C10.2081 5.42504 10.1017 5.95708 10.0024 6.48557C9.69733 8.21647 9.38166 9.94383 8.98795 11.657C8.79996 12.448 8.60843 13.2389 8.31758 14.0015C8.18279 14.3172 8.05156 14.6542 7.79263 14.8883C7.73233 14.9415 7.67204 15.0089 7.58691 14.9982H4.03997C3.79878 14.9911 3.56114 15.0124 3.31995 14.9876C3.47956 14.8634 3.62144 14.7145 3.71366 14.5371C3.97968 14.0299 4.14638 13.4801 4.30599 12.9339C4.55428 12.0543 4.75291 11.164 4.9409 10.2737C5.05794 9.68845 5.19627 9.10675 5.2814 8.51796C5.37717 7.86178 5.52259 7.21269 5.63964 6.56006C5.82408 5.59884 6.01916 4.63762 6.23553 3.68349C6.40933 2.93864 6.58667 2.19733 6.82432 1.4702C6.94137 1.11906 7.06906 0.771458 7.2535 0.448687Z" />
+                    <path
+                      d="M11.9567 0.00177478C12.0595 0.00177478 12.1624 -0.00177215 12.2653 0.00177478C12.4923 0.122371 12.6838 0.313905 12.7902 0.55155C12.9321 0.821117 13.0491 1.10487 13.1555 1.39572C13.5102 2.49172 13.7514 3.61965 13.9926 4.74403C14.1983 5.75135 14.3934 6.76223 14.5779 7.77666C14.5921 7.82986 14.5743 7.90434 14.6453 7.91853C14.3899 9.25218 14.138 10.5894 13.8188 11.9124C13.645 12.6253 13.4606 13.3347 13.1981 14.0228C13.0562 14.3669 12.9108 14.7428 12.6093 14.9876C12.4178 15.0301 12.2795 14.8847 12.1624 14.7535C11.9602 14.4945 11.8361 14.1895 11.7155 13.8845C11.3147 12.792 11.0699 11.6535 10.8217 10.5184C10.6337 9.63525 10.467 8.74497 10.2932 7.85823C10.2151 7.40777 10.1087 6.96441 10.0484 6.51395C10.0378 6.50685 10.013 6.49266 10.0023 6.48557C10.1016 5.95708 10.208 5.42504 10.318 4.89654C10.5627 3.7296 10.8146 2.56266 11.1764 1.42764C11.304 1.05167 11.4424 0.675692 11.6481 0.338734C11.7261 0.20395 11.8396 0.101089 11.9567 0.00177478Z" />
+                    <path
+                      d="M16.394 0.615391C16.5216 0.370653 16.6777 0.097539 16.9544 0.00531868C18.3625 -0.00177519 19.7706 0.00177174 21.1788 0.00177174C21.0475 0.133008 20.9092 0.264245 20.8205 0.430951C20.5474 0.920428 20.3878 1.46311 20.2246 1.9987C19.8061 3.47422 19.5117 4.98167 19.2315 6.48911C18.9726 7.97528 18.6959 9.46145 18.3802 10.9405C18.2171 11.6854 18.0468 12.4267 17.8305 13.1609C17.6921 13.6149 17.5467 14.0725 17.3197 14.4945C17.2097 14.6861 17.0821 14.8953 16.8728 14.9947C15.5285 15.0053 14.1807 14.9947 12.8364 14.9982C12.7619 14.9982 12.6839 14.9982 12.6094 14.9876C12.9109 14.7428 13.0563 14.3669 13.1982 14.0228C13.4606 13.3347 13.6451 12.6253 13.8189 11.9124C14.1381 10.5894 14.3899 9.25218 14.6453 7.91853C14.9539 6.19827 15.2767 4.478 15.6881 2.77902C15.8796 2.04481 16.0641 1.29995 16.394 0.615391Z" />
+                    <path
+                      d="M21.1787 0.00177478C21.2922 0.00177478 21.4093 -0.00177215 21.5228 0.00177478C21.7072 0.097542 21.8384 0.260701 21.9555 0.427407C22.147 0.732443 22.2676 1.0765 22.3918 1.41345C22.6862 2.31792 22.9061 3.24722 23.1082 4.17652C23.3778 5.42858 23.6119 6.68775 23.8425 7.94691C23.8992 8.2484 23.956 8.55343 23.9914 8.85847C24.0056 8.87266 24.034 8.90103 24.0446 8.91167C23.9169 9.08902 23.8673 9.30184 23.7963 9.50401C23.5729 10.224 23.4275 10.9689 23.3033 11.7102C23.2076 12.2919 23.0763 12.8701 22.8954 13.4305C22.7606 13.8455 22.5975 14.2569 22.3279 14.6045C22.2002 14.7712 22.0264 14.8989 21.8349 14.984C21.5405 15.0159 21.3667 14.7322 21.2248 14.5229C20.9304 14.0086 20.7708 13.434 20.6006 12.8736C20.0401 10.7986 19.6748 8.67403 19.2811 6.5636C19.2776 6.53168 19.2598 6.5033 19.2314 6.48912C19.5117 4.98167 19.806 3.47422 20.2246 1.9987C20.3877 1.46311 20.5474 0.920431 20.8205 0.430954C20.9091 0.264248 21.0475 0.133011 21.1787 0.00177478Z" />
+                    <path
+                      d="M0 8.07106C0.0922203 8.06396 0.184441 8.04977 0.280208 8.04977H4.14637C4.30952 8.07106 4.47978 8.05687 4.63584 8.12781C4.86285 8.22003 5.06502 8.37609 5.21399 8.57117C5.23173 8.56053 5.26365 8.53216 5.28138 8.51797C5.19626 9.10676 5.05793 9.68846 4.94088 10.2737C4.75289 11.164 4.55426 12.0543 4.30598 12.9339C4.14637 13.4801 3.97966 14.0299 3.71364 14.5371C3.62142 14.7145 3.47954 14.8634 3.31993 14.9876C3.25963 14.9982 3.21352 14.9557 3.16387 14.9237C2.99716 14.8173 2.90139 14.6329 2.79853 14.4662C2.3126 13.3595 2.2594 12.1358 1.95791 10.9795C1.80539 10.4014 1.6174 9.82679 1.34074 9.29475C1.17049 8.97552 0.961219 8.67049 0.688105 8.42575C0.48593 8.26259 0.251832 8.13135 0 8.07106Z" />
+                    <path
+                      d="M24.3568 8.43992C24.5803 8.18809 24.9137 8.02848 25.2507 8.04267H28.1591C28.5635 8.04976 28.9714 8.02848 29.3757 8.05331C29.2551 8.13489 29.1097 8.16681 28.982 8.2342C28.5387 8.43638 28.1591 8.77333 27.918 9.19542C27.5313 9.86934 27.3966 10.6426 27.2831 11.4016C27.1696 12.1465 27.1731 12.9162 26.9319 13.6397C26.7687 14.1469 26.5205 14.6577 26.0913 14.9911C24.7576 15.0053 23.424 14.9947 22.0939 14.9982C22.0052 14.9982 21.9201 15.0018 21.835 14.984C22.0265 14.8989 22.2003 14.7712 22.328 14.6045C22.5976 14.2569 22.7607 13.8455 22.8955 13.4305C23.0764 12.87 23.2076 12.2919 23.3034 11.7102C23.4275 10.9689 23.573 10.224 23.7964 9.504C23.8674 9.30183 23.917 9.08901 24.0447 8.91167C24.1511 8.7556 24.222 8.57471 24.3568 8.43992Z" />
+                  </svg>
+                </div>
+              </i>DOCUMENTAÇÃO</a></li>
+
+          <li>
+            <a href="https://github.com/rodrigolessadev/SenacTrabalhoFrameworksCSS.git" target="_blank">
+              <i class="material-icons left">
+                <div class="logo-svg">
+                  <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M19.1242 5.00925C16.9067 3.09348 14.2318 1.58303 11.2957 0.680174C10.5698 0.465271 9.84 0.262032 9.08597 0.125134C9.05791 0.118378 9.02593 0.117687 8.99755 0.111393C7.92631 1.10398 6.9404 2.20038 6.05139 3.37697C7.036 3.197 8.03916 3.08089 9.06508 3.03574C12.6458 2.8702 16.0509 3.60683 19.1242 5.00925Z" />
+                    <path
+                      d="M5.13719 13.9958C6.53011 12.703 8.05492 11.5495 9.69912 10.5743C13.7524 8.17342 17.9956 7.15959 22 7.37905C18.5528 5.46964 14.5972 4.46435 10.4142 4.65541C8.35326 4.74831 6.36223 5.12996 4.47439 5.75648C3.53523 7.34204 2.75764 9.04758 2.16711 10.8422C3.07646 11.9641 4.06825 13.0223 5.13719 13.9958Z" />
+                    <path
+                      d="M0.856812 19C1.95612 17.3793 3.21768 15.8751 4.61566 14.5068C3.64935 13.6378 2.74631 12.7007 1.90671 11.7121C1.23332 14.0241 0.863114 16.4692 0.856812 19Z" />
+                    <path
+                      d="M1.88752 9.62203C2.35333 8.40952 2.86818 7.25134 3.42544 6.14686C2.23758 6.60628 1.09052 7.15659 0 7.80615C0.517242 8.63366 1.07685 9.43392 1.67134 10.2093C1.74233 10.0118 1.81295 9.81667 1.88752 9.62203Z" />
+                  </svg>
+
+                </div>
+              </i>PROJETO
+              GITHUB</a>
+          </li>
+          <li><a href="https://github.com/Dogfalo/materialize" target="_blank"><i class="material-icons left">
+
+                <div class="logo-svg">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 0.296997C5.37 0.296997 0 5.67 0 12.297C0 17.6 3.438 22.097 8.205 23.682C8.805 23.795 9.025 23.424 9.025 23.105C9.025 22.82 9.015 22.065 9.01 21.065C5.672 21.789 4.968 19.455 4.968 19.455C4.422 18.07 3.633 17.7 3.633 17.7C2.546 16.956 3.717 16.971 3.717 16.971C4.922 17.055 5.555 18.207 5.555 18.207C6.625 20.042 8.364 19.512 9.05 19.205C9.158 18.429 9.467 17.9 9.81 17.6C7.145 17.3 4.344 16.268 4.344 11.67C4.344 10.36 4.809 9.29 5.579 8.45C5.444 8.147 5.039 6.927 5.684 5.274C5.684 5.274 6.689 4.952 8.984 6.504C9.944 6.237 10.964 6.105 11.984 6.099C13.004 6.105 14.024 6.237 14.984 6.504C17.264 4.952 18.269 5.274 18.269 5.274C18.914 6.927 18.509 8.147 18.389 8.45C19.154 9.29 19.619 10.36 19.619 11.67C19.619 16.28 16.814 17.295 14.144 17.59C14.564 17.95 14.954 18.686 14.954 19.81C14.954 21.416 14.939 22.706 14.939 23.096C14.939 23.411 15.149 23.786 15.764 23.666C20.565 22.092 24 17.592 24 12.297C24 5.67 18.627 0.296997 12 0.296997Z" />
+                  </svg>
+
+                </div>
+              </i>MATERIALIZE</a></li>
+
+        </ul>
+    </nav>
+
+    <ul class="sidenav">
+      <li><a href="pages/form.html"><i class="material-icons left"><span
+              class="icones-link">list_alt</span></i>FORMULÁRIO</a></li>
+      <li><a href="pages/curriculo.html"><i class="material-icons left"><span
+              class="icones-link">assignment_ind</span></i>CURRÍCULO</a></li>
+      <li><a href="https://materializecss.com/" target="_blank"><i class="material-icons left"><img
+              src="img/materialize-darksvg.svg" alt="Logo Materialize"></i>DOCUMENTAÇÃO</a></li>
+      <li><a href="https://github.com/rodrigolessadev/SenacTrabalhoFrameworksCSS.git" target="_blank"><i
+            class="material-icons left"><img src="img/Logo-Senac-dark.svg" alt="Logo Senac" /></i>PROJETO GITHUB</a></a>
+      </li>
+      <li><a href="https://github.com/Dogfalo/materialize" target="_blank"><i
+            class="material-icons left"></i>MATERIALIZE</a></li>
+    </ul>
+  </header>
+  <!-- Utilizando os paràmetros de grid do materialize 
       para posicionar os objetos -->
-    <div class="container section">
-      <div class="row">
-        <div class="col s6">
-          <img src="img/materialize-seeklogo.com.svg" alt="Logo Materialize">
-        </div>
-        <div class="col s6">
-          <h1>Materialize</h1> 
+
+  <article>
+    <div class="container">
+      <div class="row cartao">
+        <!-- <div class="col s3"></div> -->
+        <div class="col s6 m8">
+          <p>
+            Criado e projetado pelo Google, o Material Design é uma linguagem de design que combina os princípios
+            clássicos
+            do
+            design de sucesso junto com inovação e tecnologia. O objetivo do Google é desenvolver um sistema de design
+            que
+            permita
+            uma experiência de usuário unificada em todos os seus produtos em qualquer plataforma.
+          </p>
         </div>
       </div>
     </div>
-  <article>
-    <p>
-      Criado e projetado pelo Google, o Material Design é uma linguagem de design que combina os princípios clássicos do
-      design de sucesso junto com inovação e tecnologia. O objetivo do Google é desenvolver um sistema de design que permita
-      uma experiência de usuário unificada em todos os seus produtos em qualquer plataforma.
-    </p>
+    <!-- <div class="col s3"></div> -->
   </article>
+
+
+  <!-- <footer class="page-footer">
   <div class="container">
     <div class="row">
-      <div class="col s8 botons-index">
-        <a href="pages/form.html" class="waves-effect waves-light btn-large btn-index"><i class="material-icons left">list_alt</i>button</a>
+      <div class="col l6 s12">
+        <h5 class="white-text">Footer Content</h5>
+        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
       </div>
-      <div class="col s8 botons-index">
-        <a href="pages/curriculo.html" class="waves-effect waves-light btn-large btn-index"><i class="material-icons left">assignment_ind</i>button</a>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+        </ul>
       </div>
     </div>
   </div>
+  <div class="footer-copyright">
+    <div class="container">
+      © 2014 Copyright Text
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+    </div>
+  </div>
+</footer> -->
+  <include src="img/icones.html">
+  </include>
+  <include src="my-second-file.html" class="my-second-class">
+  </include>
+
+  <include id="meu_include_1" src="#meu_id">
+    <include id="meu_include_2" src="#meu_id">
+      <div id="meu_id">
+        conteúdo
+        <include src="img/icones.html" class="txt"></include>
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="js/materialize.min.js"></script>
+      <script src="js/menu.js"></script>
+
 </body>
+
 </html>
