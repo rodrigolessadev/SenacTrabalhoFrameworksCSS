@@ -20,17 +20,40 @@
 @media screen and (min-width: 768px) {
     /* Estilos para desktop */
 
+    
+      main {
+        flex: 1 0 auto;
+      }
+
+      .page-footer {
+        position:fixed;
+        bottom: 0;
+        width: 100%;
+        justify-content: flex-start;
+      }
+
     .container {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+    .cartao {
+        height: 100%;
+    }
+    .container-article{
+        vertical-align: middle;
+        width: 100%;
 
-    .card .card-action {
-        padding: 16px 24px;
-        display: grid !important;
-        align-items: center;
-        justify-content: center;
+    }
+    .artigo-index{
+        width: 90%;
+        padding: 3.125rem 0;
+    }
+
+    .paragrafo-index{
+        padding: 3.125rem 20%;
+        vertical-align: middle !important;
+        text-justify: newspaper;
     }
 
     .img{
@@ -43,4 +66,7 @@
     }
 
 
+
 }
+
+
