@@ -13,4 +13,14 @@
 - [ ] Aplicar o estilo nas páginas do currículo e formulário
 - [ ] Preparar apresentação do protótipo
 
+### Realizar a pesquisa  
+- [ ]  Index
+- [ ]  Currículo
+- [ ]  Formulário
+- [ ]  Index mobile
+- [ ]  Currículo Mobile
+- [ ]  Formulário Mobile
+
 **Data entrega: 25/08/2023**
+
+

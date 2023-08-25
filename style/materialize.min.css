@@ -4,8 +4,7 @@
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
 
-sass materializeScss.scss materializeScss.css 
-.materialize-red {
+sass materializeScss.scss materializeScss.css .materialize-red {
   background-color: #e51c23 !important
 }
 
@@ -2458,7 +2457,7 @@ nav,
 .btn-small:hover,
 .btn-floating:hover {
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2)
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
 }
 
 .z-depth-2 {
@@ -5293,7 +5292,7 @@ small {
 .btn-large:focus,
 .btn-small:focus,
 .btn-floating:focus {
-  background-color: #1d7d74
+  background-color: rgba(187, 134, 252, 0.20)
 }
 
 .btn,
@@ -5301,7 +5300,7 @@ small {
 .btn-small {
   text-decoration: none;
   color: #fff;
-  background-color: #26a69a;
+  background-color: rgba(187, 134, 252, 0.08);
   text-align: center;
   letter-spacing: .5px;
   -webkit-transition: background-color .2s ease-out;
@@ -5312,7 +5311,7 @@ small {
 .btn:hover,
 .btn-large:hover,
 .btn-small:hover {
-  background-color: #2bbbad
+  background-color: rgba(187, 134, 252, 0.20)
 }
 
 .btn-floating {

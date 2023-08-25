@@ -1,10 +1,85 @@
-.teste {
-    height: 100vh;
-    align-items: center;
-    display: flex;
-    background-color: #014A82;
+@media screen and (max-width: 768px) {
+
+    /* Estilos para mobile */
+    .icones-link {
+        color: black !important;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    path {
+        fill: 000;
+    }
 }
 
-.btn-index {
-    background-color: #01345C !important;
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    /* Estilos para desktop */
+
+
+    main {
+        flex: 1 0 auto;
+    }
+
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .sessao {
+        display: flex;
+        margin: 5em 0
+    }
+
+    .card-row {
+        display: flex;
+    }
+
+    .coluna1-card {
+        display: flex;
+        justify-content: center;
+        vertical-align: middle;
+
+    }
+
+    .cartao {
+
+        height: 100%;
+        width: 50%;
+        text-justify: distribute-all-lines;
+        font-size: 8pt;
+        justify-content: center;
+    }
+
+    .cartao h3 {
+        font-size: xx-large;
+    }
+
+    .img {
+        width: 24px;
+        height: 24px;
+    }
+
+    path {
+        fill: #fff;
+    }
+
+    .page-footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
 }
