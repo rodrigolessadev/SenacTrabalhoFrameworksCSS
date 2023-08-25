@@ -10,6 +10,10 @@
         flex-direction: column;
         flex-wrap: wrap;
     }
+
+    path {
+        fill: 000;
+    }
 }
 
 
@@ -20,53 +24,62 @@
 @media screen and (min-width: 768px) {
     /* Estilos para desktop */
 
-    
-      main {
-        flex: 1 0 auto;
-      }
 
-      .page-footer {
-        position:fixed;
-        bottom: 0;
-        width: 100%;
-        justify-content: flex-start;
-      }
+    main {
+        flex: 1 0 auto;
+    }
+
 
     .container {
         display: flex;
         justify-content: center;
         align-items: center;
+
     }
-    .cartao {
-        height: 100%;
+
+    .sessao {
+        display: flex;
+        margin: 5em 0
     }
-    .container-article{
+
+    .card-row {
+        display: flex;
+    }
+
+    .coluna1-card {
+        display: flex;
+        justify-content: center;
         vertical-align: middle;
-        width: 100%;
 
     }
-    .artigo-index{
-        width: 90%;
-        padding: 3.125rem 0;
+
+    .cartao {
+
+        height: 100%;
+        width: 50%;
+        text-justify: distribute-all-lines;
+        font-size: 8pt;
+        justify-content: center;
     }
 
-    .paragrafo-index{
-        padding: 3.125rem 20%;
-        vertical-align: middle !important;
-        text-justify: newspaper;
+    .cartao h3 {
+        font-size: xx-large;
     }
 
-    .img{
+    .img {
         width: 24px;
         height: 24px;
     }
 
     path {
-        fill: blue;
+        fill: #fff;
     }
 
-
+    .page-footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        justify-content: flex-start;
+    }
 
 }
-
-
