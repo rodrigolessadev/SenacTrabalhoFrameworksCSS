@@ -1,4 +1,4 @@
-
+// Responsável pelo menu mobile
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.sidenav');
   var instances = M.Sidenav.init(elems, options);
@@ -9,4 +9,4 @@ document.addEventListener('DOMContentLoaded', function() {
 $(document).ready(function(){
   $('.sidenav').sidenav();
 });
-      
+
