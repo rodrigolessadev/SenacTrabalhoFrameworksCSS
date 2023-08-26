@@ -13,19 +13,47 @@
   <title>Senac - Materialize</title>
 </head>
 
-<body>
+<body class="teal darken-4">
 
   <!-- Título e logo -->
   <header>
+    <!-- Início do menu para desktop-->
     <nav>
-      <div class="nav-wrapper">
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <div class="nav-wrapper  grey darken-4">
+        <a href="Index.html" class="brand-logo">
+          <svg width="90" height="auto" viewBox="0 0 131 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M32.9153 2.97422C33.3835 2.17829 33.9921 1.41357 34.8661 1.03902C35.2251 0.97659 35.584 1.0078 35.943 1.0078H53.6095C53.0945 1.44479 52.5951 1.89737 52.2518 2.49042C51.3466 3.97304 50.7379 5.62733 50.1761 7.28162C48.5842 12.2757 47.4762 17.4102 46.3993 22.5448C45.9155 24.8702 45.4473 27.2111 45.0103 29.5365C43.6682 37.1525 42.2792 44.7529 40.5469 52.2908C39.7197 55.771 38.877 59.2513 37.5972 62.6067C37.0042 63.9957 36.4268 65.4783 35.2875 66.5083C35.0222 66.7424 34.7569 67.0389 34.3823 66.9921H18.7758C17.7145 66.9609 16.6689 67.0546 15.6077 66.9453C16.31 66.3991 16.9342 65.7436 17.34 64.9633C18.5105 62.7316 19.244 60.3125 19.9463 57.9091C21.0387 54.0387 21.9127 50.1215 22.7398 46.2043C23.2549 43.6292 23.8635 41.0697 24.2381 38.479C24.6594 35.5918 25.2993 32.7358 25.8143 29.8642C26.6259 25.6349 27.4842 21.4055 28.4362 17.2074C29.2009 13.93 29.9813 10.6682 31.0269 7.4689C31.5419 5.92385 32.1037 4.39442 32.9153 2.97422Z"
+              fill="#EB7077" stroke="#EB7077" stroke-width="0.09375" />
+            <path
+              d="M53.6096 1.0078C54.0622 1.0078 54.5147 0.992192 54.9673 1.0078C55.9661 1.53842 56.8089 2.38117 57.2771 3.42681C57.9014 4.6129 58.4164 5.86142 58.8846 7.14116C60.4452 11.9636 61.5065 16.9264 62.5677 21.8737C63.4729 26.306 64.3312 30.7538 65.1428 35.2173C65.2052 35.4514 65.1272 35.7791 65.4393 35.8415C64.3156 41.7096 63.2076 47.5932 61.803 53.4145C61.0383 56.5514 60.2267 59.6727 59.0718 62.7003C58.4476 64.2142 57.8077 65.8685 56.4812 66.9453C55.6384 67.1326 55.0298 66.4927 54.5147 65.9153C53.6252 64.776 53.0789 63.4338 52.5483 62.0917C50.7848 57.2849 49.7079 52.2752 48.6155 47.2811C47.7883 43.3951 47.0548 39.4778 46.2901 35.5762C45.9468 33.5942 45.4786 31.6434 45.2133 29.6614C45.1664 29.6301 45.0572 29.5677 45.0104 29.5365C45.4474 27.2111 45.9156 24.8702 46.3994 22.5448C47.4762 17.4102 48.5843 12.2757 50.1761 7.28162C50.738 5.62733 51.3466 3.97304 52.2518 2.49042C52.5951 1.89737 53.0945 1.44478 53.6096 1.0078Z"
+              fill="#F6A2AD" stroke="#F6A2AD" stroke-width="0.09375" />
+            <path
+              d="M73.1333 3.70773C73.6952 2.63088 74.3819 1.42918 75.5992 1.02341C81.795 0.992198 87.9907 1.0078 94.1865 1.0078C93.6091 1.58525 93.0004 2.16269 92.6103 2.89619C91.4086 5.04989 90.7063 7.43769 89.9884 9.79427C88.1468 16.2866 86.8515 22.9193 85.6186 29.5521C84.4793 36.0912 83.262 42.6304 81.873 49.1383C81.1551 52.4156 80.406 55.6774 79.454 58.908C78.8453 60.9056 78.2055 62.9188 77.2066 64.776C76.7228 65.6188 76.161 66.5395 75.2402 66.9765C69.3254 67.0233 63.3949 66.9765 57.48 66.9921C57.1523 66.9921 56.8089 66.9921 56.4812 66.9453C57.8078 65.8685 58.4476 64.2142 59.0719 62.7003C60.2268 59.6727 61.0383 56.5514 61.803 53.4145C63.2076 47.5932 64.3157 41.7096 65.4393 35.8415C66.7971 28.2724 68.2173 20.7032 70.0276 13.2277C70.8704 9.99715 71.6819 6.71979 73.1333 3.70773Z"
+              fill="#EB7077" stroke="#EB7077" stroke-width="0.09375" />
+            <path
+              d="M94.1864 1.0078C94.6858 1.0078 95.2008 0.992192 95.7002 1.0078C96.5118 1.42917 97.0892 2.14707 97.6042 2.88058C98.447 4.22274 98.9776 5.73657 99.5238 7.21919C100.819 11.1988 101.787 15.2878 102.676 19.3767C103.862 24.8858 104.892 30.4261 105.907 35.9664C106.157 37.2929 106.406 38.6351 106.562 39.9773C106.625 40.0397 106.75 40.1645 106.796 40.2114C106.235 40.9917 106.016 41.9281 105.704 42.8176C104.721 45.9858 104.081 49.2631 103.535 52.5249C103.113 55.0844 102.536 57.6282 101.74 60.094C101.147 61.92 100.429 63.7304 99.2429 65.2598C98.6811 65.9933 97.9163 66.5551 97.0736 66.9297C95.7782 67.0702 95.0135 65.8216 94.3893 64.9009C93.0939 62.6379 92.3916 60.1097 91.6425 57.6438C89.1767 48.514 87.5692 39.1657 85.8369 29.8798C85.8213 29.7394 85.7433 29.6145 85.6184 29.5521C86.8513 22.9193 88.1467 16.2866 89.9882 9.79426C90.7061 7.43768 91.4084 5.04988 92.6101 2.89619C93.0003 2.16268 93.6089 1.58524 94.1864 1.0078Z"
+              fill="#F6A2AD" stroke="#F6A2AD" stroke-width="0.09375" />
+            <path
+              d="M1 36.5126C1.40577 36.4814 1.81154 36.419 2.23291 36.419H19.244C19.9619 36.5126 20.711 36.4502 21.3977 36.7623C22.3965 37.1681 23.2861 37.8548 23.9416 38.7131C24.0196 38.6663 24.1601 38.5415 24.2381 38.479C23.8635 41.0697 23.2549 43.6292 22.7399 46.2043C21.9127 50.1215 21.0388 54.0387 19.9463 57.9091C19.244 60.3125 18.5105 62.7316 17.34 64.9633C16.9342 65.7436 16.31 66.3991 15.6077 66.9453C15.3424 66.9921 15.1395 66.8048 14.921 66.6644C14.1875 66.1962 13.7661 65.3847 13.3135 64.6512C11.1754 59.7819 10.9413 54.3977 9.61479 49.31C8.94371 46.7661 8.11657 44.2378 6.89926 41.8969C6.15015 40.4923 5.22936 39.1501 4.02766 38.0733C3.13809 37.3554 2.10806 36.7779 1 36.5126Z"
+              fill="#F6A2AD" stroke="#F6A2AD" stroke-width="0.09375" />
+            <path
+              d="M108.17 38.1357C109.153 37.0276 110.62 36.3253 112.103 36.3878H124.9C126.679 36.419 128.474 36.3253 130.253 36.4346C129.722 36.7935 129.083 36.934 128.521 37.2305C126.57 38.1201 124.9 39.6027 123.839 41.4599C122.138 44.4251 121.545 47.8273 121.045 51.1671C120.546 54.4445 120.561 57.8311 119.5 61.0148C118.782 63.2466 117.69 65.4939 115.801 66.9609C109.933 67.0233 104.065 66.9765 98.2129 66.9921C97.8227 66.9921 97.4482 67.0077 97.0736 66.9297C97.9164 66.5551 98.6811 65.9933 99.2429 65.2598C100.429 63.7304 101.147 61.92 101.74 60.0941C102.536 57.6282 103.113 55.0844 103.535 52.5249C104.081 49.2631 104.721 45.9858 105.704 42.8176C106.016 41.9281 106.235 40.9917 106.796 40.2114C107.265 39.5247 107.577 38.7287 108.17 38.1357Z"
+              fill="#EB7077" stroke="#EB7077" stroke-width="0.09375" />
+          </svg>
+
+        </a>
+        <a href="Index.html" data-target="mobile-demo" class="sidenav-trigger">
+          <i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="pages/form.html"><i class="material-icons left">list_alt</i>FORMULÁRIO</a></li>
-          <li><a href="pages/curriculo.html"><i class="material-icons left">assignment_ind</i>CURRÍCULO</a></li>
-          <li><a href="https://materializecss.com/" target="_blank"><i class="material-icons left">
-                <div class="logo-svg">
 
+          <li><a href="pages/curriculo.html"><i class="material-icons left">assignment_ind</i>CURRÍCULO</a></li>
+
+          <li>
+            <a href="https://github.com/rodrigolessadev/SenacTrabalhoFrameworksCSS.git" target="_blank">
+              <i class="material-icons left">
+                <div class="logo-svg">
                   <svg width="30" height="15" viewBox="0 0 30 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M7.2535 0.448687C7.3599 0.267794 7.49824 0.0939938 7.69686 0.00886733C7.77844 -0.0053204 7.86002 0.00177347 7.9416 0.00177347H11.9567C11.8397 0.101088 11.7262 0.203949 11.6481 0.338732C11.4424 0.675691 11.3041 1.05167 11.1764 1.42764C10.8146 2.56266 10.5628 3.7296 10.318 4.89654C10.2081 5.42504 10.1017 5.95708 10.0024 6.48557C9.69733 8.21647 9.38166 9.94383 8.98795 11.657C8.79996 12.448 8.60843 13.2389 8.31758 14.0015C8.18279 14.3172 8.05156 14.6542 7.79263 14.8883C7.73233 14.9415 7.67204 15.0089 7.58691 14.9982H4.03997C3.79878 14.9911 3.56114 15.0124 3.31995 14.9876C3.47956 14.8634 3.62144 14.7145 3.71366 14.5371C3.97968 14.0299 4.14638 13.4801 4.30599 12.9339C4.55428 12.0543 4.75291 11.164 4.9409 10.2737C5.05794 9.68845 5.19627 9.10675 5.2814 8.51796C5.37717 7.86178 5.52259 7.21269 5.63964 6.56006C5.82408 5.59884 6.01916 4.63762 6.23553 3.68349C6.40933 2.93864 6.58667 2.19733 6.82432 1.4702C6.94137 1.11906 7.06906 0.771458 7.2535 0.448687Z" />
@@ -41,7 +69,9 @@
                       d="M24.3568 8.43992C24.5803 8.18809 24.9137 8.02848 25.2507 8.04267H28.1591C28.5635 8.04976 28.9714 8.02848 29.3757 8.05331C29.2551 8.13489 29.1097 8.16681 28.982 8.2342C28.5387 8.43638 28.1591 8.77333 27.918 9.19542C27.5313 9.86934 27.3966 10.6426 27.2831 11.4016C27.1696 12.1465 27.1731 12.9162 26.9319 13.6397C26.7687 14.1469 26.5205 14.6577 26.0913 14.9911C24.7576 15.0053 23.424 14.9947 22.0939 14.9982C22.0052 14.9982 21.9201 15.0018 21.835 14.984C22.0265 14.8989 22.2003 14.7712 22.328 14.6045C22.5976 14.2569 22.7607 13.8455 22.8955 13.4305C23.0764 12.87 23.2076 12.2919 23.3034 11.7102C23.4275 10.9689 23.573 10.224 23.7964 9.504C23.8674 9.30183 23.917 9.08901 24.0447 8.91167C24.1511 8.7556 24.222 8.57471 24.3568 8.43992Z" />
                   </svg>
                 </div>
-              </i>DOCUMENTAÇÃO</a></li>
+              </i>DOCUMENTAÇÃO
+            </a>
+          </li>
 
           <li>
             <a href="https://github.com/rodrigolessadev/SenacTrabalhoFrameworksCSS.git" target="_blank">
@@ -57,30 +87,25 @@
                     <path
                       d="M1.88752 9.62203C2.35333 8.40952 2.86818 7.25134 3.42544 6.14686C2.23758 6.60628 1.09052 7.15659 0 7.80615C0.517242 8.63366 1.07685 9.43392 1.67134 10.2093C1.74233 10.0118 1.81295 9.81667 1.88752 9.62203Z" />
                   </svg>
-
                 </div>
-              </i>PROJETO
-              GITHUB</a>
+              </i>PROJETO GITHUB
+            </a>
           </li>
-          <li><a href="https://github.com/Dogfalo/materialize" target="_blank"><i class="material-icons left">
-
-                <div class="logo-svg">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M12 0.296997C5.37 0.296997 0 5.67 0 12.297C0 17.6 3.438 22.097 8.205 23.682C8.805 23.795 9.025 23.424 9.025 23.105C9.025 22.82 9.015 22.065 9.01 21.065C5.672 21.789 4.968 19.455 4.968 19.455C4.422 18.07 3.633 17.7 3.633 17.7C2.546 16.956 3.717 16.971 3.717 16.971C4.922 17.055 5.555 18.207 5.555 18.207C6.625 20.042 8.364 19.512 9.05 19.205C9.158 18.429 9.467 17.9 9.81 17.6C7.145 17.3 4.344 16.268 4.344 11.67C4.344 10.36 4.809 9.29 5.579 8.45C5.444 8.147 5.039 6.927 5.684 5.274C5.684 5.274 6.689 4.952 8.984 6.504C9.944 6.237 10.964 6.105 11.984 6.099C13.004 6.105 14.024 6.237 14.984 6.504C17.264 4.952 18.269 5.274 18.269 5.274C18.914 6.927 18.509 8.147 18.389 8.45C19.154 9.29 19.619 10.36 19.619 11.67C19.619 16.28 16.814 17.295 14.144 17.59C14.564 17.95 14.954 18.686 14.954 19.81C14.954 21.416 14.939 22.706 14.939 23.096C14.939 23.411 15.149 23.786 15.764 23.666C20.565 22.092 24 17.592 24 12.297C24 5.67 18.627 0.296997 12 0.296997Z" />
-                  </svg>
-
-                </div>
-              </i>MATERIALIZE</a></li>
-
-        <!-- </ul>
+        </ul>
+      </div>
     </nav>
-    <ul class="right sidenav hide-on-med-and-down">
-      <li><a href="pages/form.html"><i class="material-icons left">list_alt</i>FORMULÁRIO</a></li>
-      <li><a href="pages/curriculo.html"><i class="material-icons left">assignment_ind</i>CURRÍCULO</a></li>
-      <li><a href="https://materializecss.com/" target="_blank"><i class="material-icons left">
-            <div class="logo-svg">
+    <!-- fim do menu para pc e início do menu mobile -->
 
+
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="pages/form.html"><i class="material-icons left">list_alt</i>FORMULÁRIO</a></li>
+
+      <li><a href="pages/curriculo.html"><i class="material-icons left">assignment_ind</i>CURRÍCULO</a></li>
+
+      <li>
+        <a href="https://github.com/rodrigolessadev/SenacTrabalhoFrameworksCSS.git" target="_blank">
+          <i class="material-icons left">
+            <div class="logo-svg">
               <svg width="30" height="15" viewBox="0 0 30 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M7.2535 0.448687C7.3599 0.267794 7.49824 0.0939938 7.69686 0.00886733C7.77844 -0.0053204 7.86002 0.00177347 7.9416 0.00177347H11.9567C11.8397 0.101088 11.7262 0.203949 11.6481 0.338732C11.4424 0.675691 11.3041 1.05167 11.1764 1.42764C10.8146 2.56266 10.5628 3.7296 10.318 4.89654C10.2081 5.42504 10.1017 5.95708 10.0024 6.48557C9.69733 8.21647 9.38166 9.94383 8.98795 11.657C8.79996 12.448 8.60843 13.2389 8.31758 14.0015C8.18279 14.3172 8.05156 14.6542 7.79263 14.8883C7.73233 14.9415 7.67204 15.0089 7.58691 14.9982H4.03997C3.79878 14.9911 3.56114 15.0124 3.31995 14.9876C3.47956 14.8634 3.62144 14.7145 3.71366 14.5371C3.97968 14.0299 4.14638 13.4801 4.30599 12.9339C4.55428 12.0543 4.75291 11.164 4.9409 10.2737C5.05794 9.68845 5.19627 9.10675 5.2814 8.51796C5.37717 7.86178 5.52259 7.21269 5.63964 6.56006C5.82408 5.59884 6.01916 4.63762 6.23553 3.68349C6.40933 2.93864 6.58667 2.19733 6.82432 1.4702C6.94137 1.11906 7.06906 0.771458 7.2535 0.448687Z" />
@@ -96,7 +121,9 @@
                   d="M24.3568 8.43992C24.5803 8.18809 24.9137 8.02848 25.2507 8.04267H28.1591C28.5635 8.04976 28.9714 8.02848 29.3757 8.05331C29.2551 8.13489 29.1097 8.16681 28.982 8.2342C28.5387 8.43638 28.1591 8.77333 27.918 9.19542C27.5313 9.86934 27.3966 10.6426 27.2831 11.4016C27.1696 12.1465 27.1731 12.9162 26.9319 13.6397C26.7687 14.1469 26.5205 14.6577 26.0913 14.9911C24.7576 15.0053 23.424 14.9947 22.0939 14.9982C22.0052 14.9982 21.9201 15.0018 21.835 14.984C22.0265 14.8989 22.2003 14.7712 22.328 14.6045C22.5976 14.2569 22.7607 13.8455 22.8955 13.4305C23.0764 12.87 23.2076 12.2919 23.3034 11.7102C23.4275 10.9689 23.573 10.224 23.7964 9.504C23.8674 9.30183 23.917 9.08901 24.0447 8.91167C24.1511 8.7556 24.222 8.57471 24.3568 8.43992Z" />
               </svg>
             </div>
-          </i>DOCUMENTAÇÃO</a></li>
+          </i>DOCUMENTAÇÃO
+        </a>
+      </li>
 
       <li>
         <a href="https://github.com/rodrigolessadev/SenacTrabalhoFrameworksCSS.git" target="_blank">
@@ -112,75 +139,48 @@
                 <path
                   d="M1.88752 9.62203C2.35333 8.40952 2.86818 7.25134 3.42544 6.14686C2.23758 6.60628 1.09052 7.15659 0 7.80615C0.517242 8.63366 1.07685 9.43392 1.67134 10.2093C1.74233 10.0118 1.81295 9.81667 1.88752 9.62203Z" />
               </svg>
-
             </div>
-          </i>PROJETO
-          GITHUB</a>
+          </i>PROJETO GITHUB
+        </a>
       </li>
-      <li><a href="https://github.com/Dogfalo/materialize" target="_blank"><i class="material-icons left">
-
-            <div class="logo-svg">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M12 0.296997C5.37 0.296997 0 5.67 0 12.297C0 17.6 3.438 22.097 8.205 23.682C8.805 23.795 9.025 23.424 9.025 23.105C9.025 22.82 9.015 22.065 9.01 21.065C5.672 21.789 4.968 19.455 4.968 19.455C4.422 18.07 3.633 17.7 3.633 17.7C2.546 16.956 3.717 16.971 3.717 16.971C4.922 17.055 5.555 18.207 5.555 18.207C6.625 20.042 8.364 19.512 9.05 19.205C9.158 18.429 9.467 17.9 9.81 17.6C7.145 17.3 4.344 16.268 4.344 11.67C4.344 10.36 4.809 9.29 5.579 8.45C5.444 8.147 5.039 6.927 5.684 5.274C5.684 5.274 6.689 4.952 8.984 6.504C9.944 6.237 10.964 6.105 11.984 6.099C13.004 6.105 14.024 6.237 14.984 6.504C17.264 4.952 18.269 5.274 18.269 5.274C18.914 6.927 18.509 8.147 18.389 8.45C19.154 9.29 19.619 10.36 19.619 11.67C19.619 16.28 16.814 17.295 14.144 17.59C14.564 17.95 14.954 18.686 14.954 19.81C14.954 21.416 14.939 22.706 14.939 23.096C14.939 23.411 15.149 23.786 15.764 23.666C20.565 22.092 24 17.592 24 12.297C24 5.67 18.627 0.296997 12 0.296997Z" />
-              </svg>
-
-            </div>
-          </i>MATERIALIZE</a></li>
-
-    </ul> -->
-    <ul id="slide-out" class="sidenav">
-      <li>
-        <div class="user-view">
-          <div class="background">
-            <img src="images/office.jpg">
-          </div>
-          <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
-          <a href="#name"><span class="white-text name">John Doe</span></a>
-          <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
-        </div>
-      </li>
-      <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-      <li><a href="#!">Second Link</a></li>
-      <li>
-        <div class="divider"></div>
-      </li>
-      <li><a class="subheader">Subheader</a></li>
-      <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
     </ul>
-<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
   </header>
+
+
+
   <main>
     <div id="horizontal" class="section scrollspy sessao">
       <div class="row card-row">
         <div class="col s12 m12 coluna1-card">
           <!-- início card -->
-          <div class="card horizontal small cartao">
-            <div class="card-image ">
-              <img src="img/ales.jpg">
-            </div>
+          <div class="card horizontal large cartao">
             <div class="card-stacked">
               <article class="card-content ">
-                <p>
                 <h3>Materialize</h3>
-                Materialize é um framework front-end utilizado no desenvolvimento de sites e sistemas web e mobile, com
-                o
-                intuito de tornar o desenvolvimento mais dinâmico e ágil. Ele fornece uma estrutura de front-end
-                responsiva
-                e moderna, que toma como base o design de materiais e busca facilitar a vida do desenvolvedor.
-                Materialize
-                é uma opção interessante ao Bootstrap: um framework muito usado e bastante útil para agilizar o
-                desenvolvimento de sites e sistemas web e mobile2. Ele surgiu através de um projeto desenvolvido pela
-                Google
-                e é inspirado no Material Design (design utilizado no sistema operacional para smartphones Android desde
-                a
-                versão 5.0). Com seus componentes bem semelhantes aos de seu amigo Bootstrap, ele apresenta opções com
-                design mais leve. Isto faz com que seu projeto fique visualmente mais agradável. Além disto, com ele,
-                você
-                deixa seu projeto responsivo. A sua documentação é vasta e de fácil entendimento, com uma curva de
-                aprendizagem bem pequena.
+                <p class="texto-index">
+                  Materialize é um framework front-end utilizado no desenvolvimento de sites e sistemas web e mobile,
+                  com
+                  o
+                  intuito de tornar o desenvolvimento mais dinâmico e ágil. Ele fornece uma estrutura de front-end
+                  responsiva
+                  e moderna, que toma como base o design de materiais e busca facilitar a vida do desenvolvedor.
+                  Materialize
+                  é uma opção interessante ao Bootstrap: um framework muito usado e bastante útil para agilizar o
+                  desenvolvimento de sites e sistemas web e mobile2. Ele surgiu através de um projeto desenvolvido pela
+                  Google
+                  e é inspirado no Material Design (design utilizado no sistema operacional para smartphones Android
+                  desde
+                  a
+                  versão 5.0). Com seus componentes bem semelhantes aos de seu amigo Bootstrap, ele apresenta opções com
+                  design mais leve. Isto faz com que seu projeto fique visualmente mais agradável. Além disto, com ele,
+                  você
+                  deixa seu projeto responsivo. A sua documentação é vasta e de fácil entendimento, com uma curva de
+                  aprendizagem bem pequena.
                 </p>
               </article>
+            </div>
+            <div class="card-image ">
+              <img src="img/ales.jpg" alt="Imagem de um notebook">
             </div>
           </div>
         </div>
@@ -190,10 +190,12 @@
 
 
 
-  <footer class="page-footer">
+  <footer class="page-footer  grey darken-4">
     <div class="footer-copyright">
       <div class="container">
-        © Rodrigo Lessa & Mateus Correia de Oliveira
+        <div class="row">
+          © Rodrigo Lessa & Mateus Correia de Oliveira
+        </div>
       </div>
     </div>
   </footer>

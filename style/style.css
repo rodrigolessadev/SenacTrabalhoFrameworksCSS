@@ -1,8 +1,8 @@
 @media screen and (max-width: 768px) {
+    /**  CSS para desktops de tela pequena */
 
-    /* Estilos para mobile */
     .icones-link {
-        color: black !important;
+        color: #000 !important;
     }
 
     .container {
@@ -12,68 +12,53 @@
     }
 
     path {
-        fill: 000;
+        fill: #000;
     }
 }
 
 
-
-
-
-
 @media screen and (min-width: 768px) {
-    /* Estilos para desktop */
 
-
-    main {
-        flex: 1 0 auto;
+    /* CSS para dispositivos móveis e tablets */
+    .brand-logo {
+        display: block;
+        padding: .625rem;
+        margin: 1.125rem;
     }
 
-
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
+    nav {
+        height: 5rem !important;
     }
+
 
     .sessao {
         display: flex;
-        margin: 5em 0
+        margin: 1.875rem;
     }
 
     .card-row {
-        display: flex;
+        margin-bottom: 0;
     }
 
-    .coluna1-card {
-        display: flex;
-        justify-content: center;
-        vertical-align: middle;
-
+    .large:after {
+        content: ".small";
     }
 
     .cartao {
 
-        height: 100%;
-        width: 50%;
-        text-justify: distribute-all-lines;
-        font-size: 8pt;
+        width: 98%;
+        text-align: justify;
+        font-size: 0.9rem;
+        align-items: center;
         justify-content: center;
     }
 
-    .cartao h3 {
-        font-size: xx-large;
+    .coluna1-card {
+        display: block;
+        justify-content: center;
     }
 
-    .img {
-        width: 24px;
-        height: 24px;
-    }
 
-    path {
-        fill: #fff;
-    }
 
     .page-footer {
         position: fixed;
@@ -82,4 +67,75 @@
         justify-content: flex-start;
     }
 
-}
+
+    @media screen and (min-width: 1920px) {
+        /* monitores de 1920x1080 */
+
+        .brand-logo {
+            display: block;
+            padding: .625rem;
+            margin: 1.125rem;
+        }
+
+        nav {
+            height: 80px !important;
+        }
+
+        main {
+            flex: 1 0 auto;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .sessao {
+            display: flex;
+            margin: 5em 0
+        }
+
+
+        .coluna1-card {
+            display: flex;
+            justify-content: center;
+            vertical-align: middle;
+            align-items: center;
+        }
+
+        .cartao {
+
+            height: 100%;
+            /* width: 50%; */
+            text-align: justify;
+            font-size: 0.9rem;
+            justify-content: center;
+        }
+
+        .texto-index {
+            padding: 0 .725rem .725rem .725rem;
+        }
+
+        .cartao h3 {
+            font-size: xx-large;
+        }
+
+        .img {
+            width: 24px;
+            height: 24px;
+        }
+
+        .logo-svg {
+            fill: #fff;
+        }
+
+        .page-footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            justify-content: flex-start;
+        }
+
+    }
