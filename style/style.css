@@ -1,3 +1,40 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+table {
+    border: 1;
+}
+.table-curriculo{
+    width: 30%;
+}
+
+
+.infos{
+    display: flex;
+    justify-content: center;
+    fill: #fff;
+    align-items: center;
+}
+
+.infos a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 1.25rem;
+
+}
+
+.container-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.infos span span{
+    font-family: material icons;
+}
+
 @media screen and (max-width: 768px) {
     /**  CSS para desktops de tela pequena */
 
@@ -5,15 +42,11 @@
         color: #000 !important;
     }
 
-    .container {
+    .container-footer{
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+        justify-content: center;
     }
 
-    path {
-        fill: #000;
-    }
 }
 
 
@@ -73,7 +106,8 @@
         position: fixed;
         bottom: 0;
         width: 100%;
-        justify-content: flex-start;
+        margin-top: auto;
+        /* justify-content: flex-start; */
     }
 
 
@@ -85,6 +119,9 @@
             padding: .625rem;
             margin: 1.125rem;
         }
+        .curriculo{
+            position: relative;
+        }
 
         nav {
             height: 5rem !important;
@@ -94,18 +131,18 @@
             flex: 1 0 auto;
         }
 
-        .container {
+        /* .container-footer {
             display: flex;
             justify-content: center;
             align-items: center;
 
-        }
+        } */
         
 
 
         .sessao {
             display: flex;
-            margin: 5em 0
+            margin: 8em 0;
         }
 
         .row .col.s12 {
@@ -148,7 +185,6 @@
         }
 
         .logo-svg {
-            fill: #fff;
             text-decoration: none;
             color:#fff
         }
@@ -158,9 +194,14 @@
             bottom: 0;
             width: 100%;
             justify-content: flex-start;
+
         }
+        .fim{
+            padding-bottom: 5rem;
+        }
+
     }
-}
+
 
 @media only screen and (min-width: 601px) {
     .row .col.s12 {
@@ -174,5 +215,10 @@
         font-size: 1.2rem;
         line-height: 0.1rem;
         margin: 1.5rem 0 0.5rem 0;
+    }
+    .logo-svg {
+        fill: #fff;
+        text-decoration: none;
+        color:#fff
     }
 }
