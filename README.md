@@ -9,17 +9,14 @@
 - [X]  Tipo licença  
 - [X]  Quantidade de estrelas no github  
 
-- [ ] Fazer a implementação
-- [ ] Aplicar o estilo nas páginas do currículo e formulário
-- [ ] Preparar apresentação do protótipo
+- [X] Fazer a implementação
+- [X] Aplicar o estilo nas páginas do currículo e formulário
+- [X] Preparar apresentação do protótipo
 
 ### Realizar a pesquisa  
-- [ ]  Index
-- [ ]  Currículo
-- [ ]  Formulário
-- [ ]  Index mobile
-- [ ]  Currículo Mobile
-- [ ]  Formulário Mobile
+- [X]  Index
+- [X]  Currículo
+- [X]  Formulário
 
 **Data entrega: 25/08/2023**
 
