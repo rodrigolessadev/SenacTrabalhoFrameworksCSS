@@ -1,6 +1,6 @@
 ## Trabalho de bibliotecas css
 
-### [Projeto]([https://materializecss.com/](https://senac-trabalho-frameworks-css2.vercel.app/))  
+### [Projeto](https://materializecss.com/](https://senac-trabalho-frameworks-css2.vercel.app/)  
 ### [Materialize Documentação](https://materializecss.com/)  
 ### [Materialize Github](https://github.com/Dogfalo/materialize)  
 
